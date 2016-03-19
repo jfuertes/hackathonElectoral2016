@@ -1,16 +1,31 @@
 [
 	{
-	"partido":"Alianza para el Progreso",
-	"foto":"img/dkmkd.jpg",
-	"descripcion":"ksnvkdsnvjk",
-	"presidente":"Wall-e",
-	"partido-img":"img/partidos-apra.jpg"
+	"partido":"ACCIÓN POPULAR",
+	"foto":"img/presidente/AccionPopular.png",
+	"descripcion":"Alfredo Barnechea es egresado de Estudios Generales de Letras de la Pontificia Universidad Católica del Perú (PUCP) y tiene un Máster in Public Administration por la Harvard University. Ha sido diputado del Partido Aprista, de 1985 a 1990, con la misma agrupación postuló a la Alcaldía de Lima sin éxito. Se desempeñó como Director de Relaciones Externas del Banco Interamericano de Desarrollo, del 2005 al 2008. Ha sido asesor dela presidencia para América Latina del Grupo SACYR.",
+	"presidente":"ISAAC ALFREDO BARNECHEA GARCIA",
+	"Primer vicepresidente":"VICTOR ANDRES GARCIA BELAUNDE",
+	"Segundo vicepresidente":"RICARDO EDMUNDO DEL AGUILA MOROTE",
+	"partido-img":"img/logo/AccionPopular.jpg"
 	},
-	{
-	"partido":"Keikaka",
-	"foto":"img/chinaReconch.jpg",
-	"descripcion":"KEKE",
-	"presidente":"Wall-e",
-	"partido-img":"img/partidos-apra.jpg"
+	
+	"partido":"",
+	"foto":"img/presidente/",
+	"descripcion":"",
+	"presidente":"",
+	"Primer vicepresidente":"",
+	"Segundo vicepresidente":"",
+	"partido-img":"img/logo/"
 	},
+
+	"partido":"",
+	"foto":"img/presidente/",
+	"descripcion":"",
+	"presidente":"",
+	"Primer vicepresidente":"",
+	"Segundo vicepresidente":"",
+	"partido-img":"img/logo/"
+	},
+
+
 	]
