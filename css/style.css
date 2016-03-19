@@ -1,6 +1,17 @@
 /***
 Hackathon Electoral
 */
-body{
-	background: "img/background.jpg" !important;
+.thumbnail{
+	box-shadow: 1px 1px 10px #000;
+}
+img.presidente{
+	height: 150px;
+	display: block;
+}
+img.partido{
+	height: 40px;
+	position: relative;
+	float: left;
+	top: -40px;
+	opacity: 0.6;
 }
