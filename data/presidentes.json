@@ -6,7 +6,7 @@
 	"presidente":"ALAN GABRIEL LUDWIG GARCIA PEREZ",
 	"Primer vicepresidente":"LOURDES CELMIRA ROSARIO FLORES NANO",
 	"Segundo vicepresidente":"DAVID ABRAHAM SALAZAR MOROTE",
-	"partido-img":"img/logo/AlianzaPopular.jpg"
+	"partidoImg":"img/logo/AlianzaPopular.jpg"
 	},
 
 	{
@@ -16,7 +16,7 @@
 	"presidente":"ALEJANDRO TOLEDO MANRIQUE",
 	"Primer vicepresidente":"FERNANDO MARCIAL AYAIPOMA ALVARADO",
 	"Segundo vicepresidente":"MARIA DEL CARMEN OMONTE DURAND",
-	"partido-img":"img/logo/PeruPosible.jpg"
+	"partidoImg":"img/logo/PeruPosible.jpg"
 	},
 
 	{
@@ -26,7 +26,7 @@
 	"presidente":"ANTERO FLORES ARAOZ ESPARZA",
 	"Primer vicepresidente":"ROMULO MUCHO MAMANI",
 	"Segundo vicepresidente":"MERY LUCY BOTTON ESTRADA",
-	"partido-img":"img/logo/Orden.jpg"
+	"partidoImg":"img/logo/Orden.jpg"
 	},
 
 	{
@@ -36,7 +36,7 @@
 	"presidente":"FRANCISCO ERNESTO DIEZ-CANSECO TÁVARA",
 	"Primer vicepresidente":"CLAUDIO ALEJANDRO ZOLLA SUAREZ",
 	"Segundo vicepresidente":"MARGARITA GAMBOA URBINA",
-	"partido-img":"img/logo/peruNacion.jpg"
+	"partidoImg":"img/logo/peruNacion.jpg"
 	},
 
 	{
@@ -46,7 +46,7 @@
 	"presidente":"GREGORIO SANTOS GUERRERO",
 	"Primer vicepresidente":"ANDRÉS AVELINO ALCANTARA PAREDES",
 	"Segundo vicepresidente":"SIMON CHIPANA HUANCA",
-	"partido-img":"img/logo/DemocraciaDirecta.jpg"
+	"partidoImg":"img/logo/DemocraciaDirecta.jpg"
 	},
 
 	{
@@ -56,7 +56,7 @@
 	"presidente":"HERNANDO GUERRA GARCIA CAMPOS",
 	"Primer vicepresidente":"JOSÉ LEÓN LUNA GÁLVEZ",
 	"Segundo vicepresidente":"GUSTAVO BERNARDO RONDON FUDINAGA",
-	"partido-img":"img/logo/psn.jpg"
+	"partidoImg":"img/logo/psn.jpg"
 	},
 
 	{
@@ -66,7 +66,7 @@
 	"presidente":"ISAAC ALFREDO BARNECHEA GARCIA",
 	"Primer vicepresidente":"VICTOR ANDRES GARCIA BELAUNDE",
 	"Segundo vicepresidente":"RICARDO EDMUNDO DEL AGUILA MOROTE",
-	"partido-img":"img/logo/AccionPopular.jpg"
+	"partidoImg":"img/logo/AccionPopular.jpg"
 	},
 	{
 	"partido":"FUERZA POPULAR",
@@ -75,7 +75,7 @@
 	"presidente":"KEIKO SOFIA FUJIMORI HIGUCHI",
 	"Primer vicepresidente":"JOSE CHLIMPER ACKERMAN",
 	"Segundo vicepresidente":"VLADIMIRO HUAROC PORTOCARRERO",
-	"partido-img":"img/logo/K.jpg"
+	"partidoImg":"img/logo/K.jpg"
 	},
 
 	{
@@ -85,7 +85,7 @@
 	"presidente":"LUIS FERNANDO OLIVERA VEGA",
 	"Primer vicepresidente":"CARLOS RICARDO CUARESMA SANCHEZ",
 	"Segundo vicepresidente":"JUANA NATIVIDAD AVELLANEDA SOTO",
-	"partido-img":"img/logo/FrenteEsperanza.jpg"
+	"partidoImg":"img/logo/FrenteEsperanza.jpg"
 	},
 
 	{
@@ -95,7 +95,7 @@
 	"presidente":"MIGUEL WALTER HILARIO ESCOBAR",
 	"Primer vicepresidente":"MANUEL EDUARDO JULIO PONCE AYALA",
 	"Segundo vicepresidente":"SILVIA LUZ PAREJA GARCÍA",
-	"partido-img":"img/logo/ProgresandoPorElPeru.jpg"
+	"partidoImg":"img/logo/ProgresandoPorElPeru.jpg"
 	},
 
 	{
@@ -105,7 +105,7 @@
 	"presidente":"PEDRO PABLO KUCZYNSKI GODARD",
 	"Primer vicepresidente":"MARTÍN ALBERTO VIZCARRA CORNEJO",
 	"Segundo vicepresidente":"MERCEDES ROSALBA ARAOZ FERNANDEZ",
-	"partido-img":"img/logo/PPK.jpg"
+	"partidoImg":"img/logo/PPK.jpg"
 	},
 
 	{
@@ -115,7 +115,7 @@
 	"presidente":"VERONIKA FANNY MENDOZA FRISCH",
 	"Primer vicepresidente":"MARCO ANTONIO ARANA ZEGARRA",
 	"Segundo vicepresidente":"ALAN CARSOL BERNABE FAIRLIE REINOSO",
-	"partido-img":"img/logo/FrenteAmplio.jpg"
+	"partidoImg":"img/logo/FrenteAmplio.jpg"
 	},
 
 	{
@@ -125,7 +125,7 @@
 	"presidente":"VLADIMIR ROY CERRÓN ROJAS",
 	"Primer vicepresidente":"JORGE LUIS PAREDES TERRY",
 	"Segundo vicepresidente":"JESÚS MARTÍN ZÁRATE RIOJA",
-	"partido-img":"img/logo/PL.jpg"
+	"partidoImg":"img/logo/PL.jpg"
 	},
 
 	{
@@ -135,6 +135,6 @@
 	"presidente":"YEHUDE SIMON MUNARO",
 	"Primer vicepresidente":"ROSA DELSA MAVILA LEÓN",
 	"Segundo vicepresidente":"YORKA MARINA GAMARRA BOLUARTE",
-	"partido-img":"img/logo/ParHumanistaPer.jpg"
+	"partidoImg":"img/logo/ParHumanistaPer.jpg"
 	}
 ]
