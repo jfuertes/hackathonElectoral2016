@@ -14,6 +14,10 @@
         templateUrl: 'views/preguntas.html', 
         caseInsensitiveMatch: true, 
         controller: 'preguntasController' }).
+       when('/news', { 
+        templateUrl: 'views/news.html', 
+        caseInsensitiveMatch: true, 
+        controller: 'newsController' }).
        
       otherwise({ 
         redirectTo: '/' });

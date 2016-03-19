@@ -27,5 +27,9 @@
   }])
   .controller('preguntasController',['$scope', '$http', function ($scope, $http) {
   
+  }])
+  
+   .controller('newsController',['$scope', '$http', function ($scope, $http) {
+  
   }]);
 })();
