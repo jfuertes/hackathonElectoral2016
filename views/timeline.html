@@ -1,3 +1,244 @@
-<h3>Detalle pe</h3>
+<script src="vendor/moment.min.js"></script> 
+<script src="vendor/knockout.js"></script> 
+<script src="vendor/jquery.scrollTo.min.js"></script> 
+<script type="text/javascript">
+	
+function get_random_color() {
+    return '#' + (Math.random() * 0xFFFFFF << 0).toString(16);;
+}
 
-<a href="#/"><h1>Volver..</h1></a>
+
+//Event to display on the timeline
+function Event(title, start, end, template) {
+    this.start = start;
+    this.end = end;
+    this.title = title;
+    this.color = get_random_color();
+    this.template = template;
+
+    /*height and scale properties*/
+    this.scale = ko.observable(1);
+    this.height = ko.computed(function () {
+        var days;
+        if (!this.end) {
+            days = moment().diff(this.start, "days");
+        } else {
+            days = this.end.diff(this.start, "days");
+        }
+        return days * this.scale();
+    }, this);
+
+    this.top = ko.computed(function () {
+        var now = moment();
+        if (!this.end) {
+            return 0;
+        }
+        var diff = now.diff(this.end, 'days');
+        return (diff * (this.scale()));
+
+    }, this);
+
+    /*time helpers*/
+    this.fromEnd = function () {
+        if (!this.end) {
+            return "present"
+        }
+        return this.end.from(moment());
+    };
+    this.fromStart = function () {
+        return this.start.from(moment());
+    };
+    /*selected*/
+    this.selected = ko.observable(false);
+    this.toggleSelected = function () {
+        this.selected(!this.selected());
+    };
+}
+
+//TODO: no overlapping event paradigm
+//Left events
+var leftEvents = [
+    new Event("Pays the bills", moment("2012-12"), moment(), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("Awesome Job", moment("2010-11"), moment("2012-12"), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("Some cool place", moment("2009-01"), moment("2010-11"), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("First Real Job", moment("2008-07"), moment("2009-01"), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("The next place", moment("2006-10"), moment("2008-07"), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("Some place", moment("2003-08"), moment("2006-10"), {
+        name: 'ipsum',
+        context: {}
+    }),
+];
+
+//right events
+var rightEvents = [
+    new Event("Grad School 2", moment("2010-12-17"), moment("2011-12-01"), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("Grad School 1", moment("2008-08"), moment("2010-03"), {
+        name: 'ipsum',
+        context: {}
+    }),
+    new Event("Uni 1", moment("2003-09"), moment("2005-09"), {
+        name: 'ipsum',
+        context: {}
+    })
+
+];
+
+
+//Timeline Viewmodel
+function ViewModel() {
+    this.title = "jQuery Simple Timeline";
+    this.subtitle = "Example";
+
+    this.lastIndex = 0;
+    this.leftEvents = ko.observableArray(leftEvents);
+    this.rightEvents = ko.observableArray(rightEvents);
+    this.currentScale = ko.observable(.75);
+    this.currentScale.subscribe(this.updateEventsScale.bind(this));
+
+    //any selected
+    this.itemSelected = ko.computed(function () {
+        var leftSelected = this.leftEvents().some(function (event) {
+            return event.selected();
+        });
+        //return early
+        if (leftSelected) {
+            return leftSelected;
+        }
+        var rightSelected = this.rightEvents().some(function (event) {
+            return event.selected();
+        });
+
+        return rightSelected;
+    }, this);
+
+    //combined and sorted items
+    this.combinedSorted = ko.computed(function () {
+
+        var combined = this.leftEvents().concat(this.rightEvents());
+
+        //sort by computed top poisition
+        combined.sort(function (a, b) {
+
+            if (a.top() < b.top())
+                return -1;
+            if (a.top() > b.top())
+                return 1;
+            return 0;
+
+        });
+
+        return combined;
+
+    }, this);
+
+};
+
+ViewModel.prototype.updateEventsScale = function (value) {
+    this.leftEvents().forEach(function (event) {
+        event.scale(value);
+    });
+    this.rightEvents().forEach(function (event) {
+        event.scale(value);
+    });
+};
+ViewModel.prototype.scrollNext = function () {
+
+    if (this.lastIndex < this.combinedSorted().length - 1) {
+        this.lastIndex++;
+    }
+    var top = this.combinedSorted()[this.lastIndex].top()
+
+    $.scrollTo(top, 250);
+
+};
+ViewModel.prototype.scrollPrevious = function () {
+
+    if (this.lastIndex > 0) {
+        this.lastIndex--;
+    }
+    var top = this.combinedSorted()[this.lastIndex].top()
+
+    $.scrollTo(top, 250);
+
+};
+
+//bind
+var vm = new ViewModel();
+ko.applyBindings(vm);
+</script>
+
+
+<div data-bind="css:{'modalShown':itemSelected}">
+<header>
+<h1 data-bind="text:title"></h1>
+<div class="icon-bar">
+<div class="group">
+<label class="muted" for="scale">Scale: <span data-bind="text:currentScale"></span> pixels/day</label>
+<input data-bind=
+                "value:currentScale,valueUpdate: 'afterkeydown'" id="scale" max=
+                "10" min=".75" step='.25' name="points" type="range">
+</div>
+<div class="group"> <i data-bind="click:scrollNext" class="fa fa-arrow-down"></i> <i data-bind="click:scrollPrevious" class="fa fa-arrow-up"></i> </div>
+</div>
+<p class="muted" data-bind="text: subtitle"></p>
+</header>
+<div class="grid">
+<div class="left-timeline col-sand-left" data-bind=
+        "template:{name:'event', foreach:leftEvents}"></div>
+<div class="center-timeline col-sand-middle"></div>
+<div class="right-timeline col-sand-right" data-bind=
+        "template:{name:'event', foreach:rightEvents}"></div>
+</div>
+<script id="event" type="text/html">
+      <div class="timeline-event" data-bind="style:{'top':top()+'px', 'height':height()+'px', 'borderLeftColor':color,'borderRightColor':color}, css:{'selected':selected},click:toggleSelected">
+        <figure>
+                <figcaption data-bind="text:title"></figcaption>
+                  <h6><span data-bind="text:fromStart()"></span>
+                  <small>to</small>
+                  <span data-bind="text:fromEnd()"></span>
+                  </h6>
+                <div data-bind="template:{name:template.name,data:template.context}"></div>
+        </figure>
+      </div>
+    </script> 
+<script type="text/html" id="ipsum">
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quam quo eius harum alias expedita dolorem adipisci ut nemo quod quis minima aliquam modi neque beatae. Iure iusto odit modi nostrum inventore voluptas natus dolor harum labore veniam quis molestias sit molestiae esse rem ipsum ad ipsam odio! Aperiam facere accusantium consequatur deleniti sunt facilis non nostrum similique autem harum. Voluptatem ullam optio minus qui rem vel natus sequi ad libero non explicabo odio cum quod commodi harum dolor praesentium error esse eligendi officia voluptatibus itaque quia expedita tempore cupiditate accusamus tempora dolores! Id dignissimos expedita corporis fuga magni doloremque explicabo omnis perferendis eaque vel pariatur autem dolorum eligendi eos laudantium suscipit totam! Voluptatem amet harum aliquam eligendi doloremque fugiat beatae veniam vel unde iste commodi cum possimus natus error tempore dignissimos totam rerum expedita fugit sint tenetur exercitationem repudiandae eveniet nihil laboriosam. Cumque molestias voluptate temporibus libero magnam nisi non earum eos numquam ratione minus repudiandae cum natus voluptas veritatis accusamus animi dicta accusantium sequi consectetur est recusandae nesciunt. Inventore quidem labore aliquam ex perspiciatis dolorem asperiores repudiandae fugiat id minima delectus molestiae aut molestias accusantium commodi sunt sint libero optio odio dolor alias veritatis voluptates iure iusto repellat.
+      </p>
+    </script> 
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</div>

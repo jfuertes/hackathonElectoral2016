@@ -18,6 +18,10 @@
         templateUrl: 'views/preguntas.html',
         caseInsensitiveMatch: true,
         controller: 'preguntasController' }).
+       when('/onpe', {
+        templateUrl: 'views/onpe.html',
+        caseInsensitiveMatch: true,
+        controller: 'onpeController' }).
        when('/news', { 
         templateUrl: 'views/news.html', 
         caseInsensitiveMatch: true, 
