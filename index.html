@@ -2,7 +2,6 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +17,7 @@
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,10 +26,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" href="vendor/flipclock/flipclock.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body ng-app="jneApp">
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -118,13 +118,13 @@
     </nav>
 
     <!-- Header Carousel -->
-    
+
 
     <!-- Page Content -->
     <div class="container">
     <div class="ng-view"></div>
         <!-- Marketing Icons Section -->
-       
+
 
     </div>
     <!-- /.container -->
@@ -134,18 +134,22 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="../vendor/angular/1.3.15/angular.min.js"></script>
-    <script src="../vendor/angular-touch/angular-touch.min.js"></script>
+    <script src="vendor/angular/1.3.15/angular.min.js"></script>
+    <script src="vendor/angular-touch/angular-touch.min.js"></script>
 
-    <script src="../vendor/angular/1.3.15/angular-animate.min.js"></script>
-    <script src="../vendor/angular/1.3.15/angular-resource.min.js"></script>
-    <script src="../vendor/angular/1.3.15/angular-route.min.js"></script>
-    <script src="../vendor/angular/ui-select/dist/select.js"></script>
-    <script src='../vendor/angular/1.3.15/i18n/angular-locale_es-pe.js'></script>
 
-    <script src="../vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="../vendor/angular-bootstrap/ui-bootstrap-tpls-1.2.4.min.js"></script>
-    
+    <script src="vendor/angular/1.3.15/angular-animate.min.js"></script>
+    <script src="vendor/angular/1.3.15/angular-resource.min.js"></script>
+    <script src="vendor/angular/1.3.15/angular-route.min.js"></script>
+    <script src="vendor/angular/ui-select/dist/select.js"></script>
+    <script src='vendor/angular/1.3.15/i18n/angular-locale_es-pe.js'></script>
+
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap-tpls-1.2.4.min.js"></script>
+
+    <script src="vendor/flipclock/flipclock.js"></script>
+    <script src="vendor/angular-flipclock/angular-flipclock.js"></script>
+
     <script src="app/controllers.js"></script>
     <script src="app/app.js"></script>
 
@@ -157,6 +161,4 @@
     </script>
 
 </body>
-
 </html>
-
