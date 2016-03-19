@@ -1,11 +1,18 @@
 <br>
-<br>
 <div class="row">
-	<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" ng-repeat="presidente in presidentes">
+    
+    
+</div>
+<br>
+
+
+<div class="row">
+	<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="height: 230px; margin-top: 50px" ng-repeat="presidente in presidentes">
 		<a href="#detalles/{{presidente.id}}">
 			<div class="thumbnail">
 				<img class='presidente' ng-src="{{presidente.foto}}" />
 				<img class='partido' ng-src="{{presidente.partidoImg}}" />
+                <div id="nombre" style="height:50px; margin-top: 10px"><p style="color: black; font: monospace 75%;display: flex;    justify-content: center;    align-content: center;    flex-direction: column; ">{{presidente.presidente}}</p></div>
 					<!--
 					<div class="caption">
 					 	<h3>{{presidente.partido}}</h3>
@@ -20,3 +27,13 @@
 		</a>
 	</div>
 </div>
+
+<link rel="stylesheet" href="css/styleslide.css">
+<script src="js/functions.js"></script>
+<div class="slide">
+     <figure>
+          <img class="img1" alt="alt img1" src="img/slide/portada1.jpg" />
+          <img class="img2" alt="alt img 2" src="img/slide/portada2.jpg" />
+          <img class="img3" alt="alt img3" src="img/slide/portada3.jpg" />
+     </figure>
+</div><br>

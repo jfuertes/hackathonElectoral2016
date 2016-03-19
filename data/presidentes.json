@@ -4,7 +4,7 @@
 	"partido":"ALIANZA POPULAR",
 	"foto":"img/presidente/AlianzaPopular.png",
 	"descripcion":"Alan García es abogado de la Universidad Nacional Mayor de San Marcos (UNMSM). Es egresado del curso de doctorado en sociología de La Sorbona, y egresado del Diplome del Instituto de Altos Estudios de América Latina de la Universidad de París III. Fue congresista de 1980 a 1985 por el Partido Aprista. Ha sido presidente de la República en dos periodos, de 1985 a 1990, y del 2006 al 2011. Es director del Instituto de Gobierno de la Universidad San Martín de Porres.",
-	"presidente":"ALAN GABRIEL LUDWIG GARCIA PEREZ",
+	"presidente":"ALAN GABRIEL GARCIA PEREZ",
 	"Primer vicepresidente":"LOURDES CELMIRA ROSARIO FLORES NANO",
 	"Segundo vicepresidente":"DAVID ABRAHAM SALAZAR MOROTE",
 	"partidoImg":"img/logo/AlianzaPopular.jpg"
@@ -37,7 +37,7 @@
 	"partido":"PERÚ NACIÓN",
 	"foto":"img/presidente/peruNacion.png",
 	"descripcion":"Francisco Diez-Canseco es Bachiller en Derecho por la Universidad Nacional Mayor de San Marcos (UNMSM). Fue electo diputado en 1985 por el Movimiento de Bases Hayistas y presidente del Consejo por la Paz de 1992 al 2015. Además, es director asesor del Grupo Orgánico Nacional S.A., del 2005 hasta ahora.",
-	"presidente":"FRANCISCO ERNESTO DIEZ-CANSECO TÁVARA",
+	"presidente":"FRANCISCO DIEZ-CANSECO TÁVARA",
 	"Primer vicepresidente":"CLAUDIO ALEJANDRO ZOLLA SUAREZ",
 	"Segundo vicepresidente":"MARGARITA GAMBOA URBINA",
 	"partidoImg":"img/logo/peruNacion.jpg"
@@ -59,7 +59,7 @@
 	"partido":"ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
 	"foto":"img/presidente/psn.png",
 	"descripcion":"Nano Guerra no ha consignado información académica en la hoja de vida que presentó al Jurado Nacional de Elecciones (JNE). Fue director gerente de Dinámica Profesional Consultores S.A. de 1997 a 1999, y gerente general de Clientes Organizaciones del 2001 al 2006. Luego fue gerente general de Somos Empresa, del 2012 al 2014, y gerente general de Aprenda S.A. del 2013 al 2014. En el 2010 creó su empresa Nano Guerra-García E.I.R.L., donde es gerente general hasta la actualidad.",
-	"presidente":"HERNANDO GUERRA GARCIA CAMPOS",
+	"presidente":"HERNANDO GUERRA GARCIA ",
 	"Primer vicepresidente":"JOSÉ LEÓN LUNA GÁLVEZ",
 	"Segundo vicepresidente":"GUSTAVO BERNARDO RONDON FUDINAGA",
 	"partidoImg":"img/logo/psn.jpg"
@@ -124,7 +124,7 @@
 	"partido":"EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD",
 	"foto":"img/presidente/FrenteAmplio.png",
 	"descripcion":"Verónika Mendoza es psicóloga de la Universidad Denis Diderot y tiene estudios de arquitectura por la UNSAAC. Tiene un máster en Ciencias Sociales por la Sorbona Nueva y cursó un diplomado a distancia en Enseñanza de Lenguas en la UNED. Actualmente es congresista, fue electa por el Partido Nacionalista pero renunció a él en el 2012. Fue profesora del Instituto Acadomia, investigadora de la Asociación Pukllasunchis, y docente invitada en un diplomado de la Universidad Nacional del Altiplano.",
-	"presidente":"VERONIKA FANNY MENDOZA FRISCH",
+	"presidente":"VERONIKA MENDOZA FRISCH",
 	"Primer vicepresidente":"MARCO ANTONIO ARANA ZEGARRA",
 	"Segundo vicepresidente":"ALAN CARSOL BERNABE FAIRLIE REINOSO",
 	"partidoImg":"img/logo/FrenteAmplio.jpg"
