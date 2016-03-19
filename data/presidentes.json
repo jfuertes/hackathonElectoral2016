@@ -1,5 +1,65 @@
 [
 	{
+	"partido":"ALIANZA POPULAR",
+	"foto":"img/presidente/AlianzaPopular.png",
+	"descripcion":"Alan García es abogado de la Universidad Nacional Mayor de San Marcos (UNMSM). Es egresado del curso de doctorado en sociología de La Sorbona, y egresado del Diplome del Instituto de Altos Estudios de América Latina de la Universidad de París III. Fue congresista de 1980 a 1985 por el Partido Aprista. Ha sido presidente de la República en dos periodos, de 1985 a 1990, y del 2006 al 2011. Es director del Instituto de Gobierno de la Universidad San Martín de Porres.",
+	"presidente":"ALAN GABRIEL LUDWIG GARCIA PEREZ",
+	"Primer vicepresidente":"LOURDES CELMIRA ROSARIO FLORES NANO",
+	"Segundo vicepresidente":"DAVID ABRAHAM SALAZAR MOROTE",
+	"partido-img":"img/logo/AlianzaPopular.jpg"
+	},
+
+	{
+	"partido":"PERÚ POSIBLE",
+	"foto":"img/presidente/PeruPosible.png",
+	"descripcion":"Alejandro Toledo es Bachiller en Economía y Administración de Negocios por la Universidad San Francisco. Tiene un máster en Economía en Recursos Humanos por el Centro Internacional para el desarrollo para la Educación de Stanford, y otro en Economía por la misma universidad. Allí mismo obtuvo su doctorado en el mismo rubro. Ha sido presidente del Perú luego de la dictadura de Alberto Fujimori. También se desempeñó como jefe del Gabinete de Asesores del Ministerio de Trabajo y Promoción Social, de 1981 a 1983.",
+	"presidente":"ALEJANDRO TOLEDO MANRIQUE",
+	"Primer vicepresidente":"FERNANDO MARCIAL AYAIPOMA ALVARADO",
+	"Segundo vicepresidente":"MARIA DEL CARMEN OMONTE DURAND",
+	"partido-img":"img/logo/PeruPosible.jpg"
+	},
+
+	{
+	"partido":"PARTIDO POLITICO ORDEN",
+	"foto":"img/presidente/Orden.png",
+	"descripcion":"Ántero Flores-Aráoz es Bachiller en Derecho por la Universidad Nacional Mayor de San Marcos (UNMSM). Fue regidor de la Municipalidad Metropolitana de Lima, de 1987 a 1989, diputado del FREDEMO de 1990 a 1992, y congresista electo durante cuatro periodos, de 1992 al 2001. Además, se desempeñó como ministro de Relaciones Exteriores del 2006 al 2007 y como ministro de Defensa del 2007 al 2009.",
+	"presidente":"ANTERO FLORES ARAOZ ESPARZA",
+	"Primer vicepresidente":"ROMULO MUCHO MAMANI",
+	"Segundo vicepresidente":"MERY LUCY BOTTON ESTRADA",
+	"partido-img":"img/logo/Orden.jpg"
+	},
+
+	{
+	"partido":"PERÚ NACIÓN",
+	"foto":"img/presidente/peruNacion.png",
+	"descripcion":"Francisco Diez-Canseco es Bachiller en Derecho por la Universidad Nacional Mayor de San Marcos (UNMSM). Fue electo diputado en 1985 por el Movimiento de Bases Hayistas y presidente del Consejo por la Paz de 1992 al 2015. Además, es director asesor del Grupo Orgánico Nacional S.A., del 2005 hasta ahora.",
+	"presidente":"FRANCISCO ERNESTO DIEZ-CANSECO TÁVARA",
+	"Primer vicepresidente":"CLAUDIO ALEJANDRO ZOLLA SUAREZ",
+	"Segundo vicepresidente":"MARGARITA GAMBOA URBINA",
+	"partido-img":"img/logo/peruNacion.jpg"
+	},
+
+	{
+	"partido":"DEMOCRACIA DIRECTA",
+	"foto":"img/presidente/DemocraciaDirecta.png",
+	"descripcion":"Gregorio Santos es Bachiller en Educación por la Universidad Nacional de Cajamarca. Se ha desempeñado como gobernador regional Cajamarca del 2011 al 2014, y actualmente se encuentra con prisión preventiva. Fue reelecto en el cargo de gobernador pero no lo pudo asumir por estar en la cárcel.",
+	"presidente":"GREGORIO SANTOS GUERRERO",
+	"Primer vicepresidente":"ANDRÉS AVELINO ALCANTARA PAREDES",
+	"Segundo vicepresidente":"SIMON CHIPANA HUANCA",
+	"partido-img":"img/logo/DemocraciaDirecta.jpg"
+	},
+
+	{
+	"partido":"ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+	"foto":"img/presidente/psn.png",
+	"descripcion":"Nano Guerra no ha consignado información académica en la hoja de vida que presentó al Jurado Nacional de Elecciones (JNE). Fue director gerente de Dinámica Profesional Consultores S.A. de 1997 a 1999, y gerente general de Clientes Organizaciones del 2001 al 2006. Luego fue gerente general de Somos Empresa, del 2012 al 2014, y gerente general de Aprenda S.A. del 2013 al 2014. En el 2010 creó su empresa Nano Guerra-García E.I.R.L., donde es gerente general hasta la actualidad.",
+	"presidente":"HERNANDO GUERRA GARCIA CAMPOS",
+	"Primer vicepresidente":"JOSÉ LEÓN LUNA GÁLVEZ",
+	"Segundo vicepresidente":"GUSTAVO BERNARDO RONDON FUDINAGA",
+	"partido-img":"img/logo/psn.jpg"
+	},
+
+	{
 	"partido":"ACCIÓN POPULAR",
 	"foto":"img/presidente/AccionPopular.png",
 	"descripcion":"Alfredo Barnechea es egresado de Estudios Generales de Letras de la Pontificia Universidad Católica del Perú (PUCP) y tiene un Máster in Public Administration por la Harvard University. Ha sido diputado del Partido Aprista, de 1985 a 1990, con la misma agrupación postuló a la Alcaldía de Lima sin éxito. Se desempeñó como Director de Relaciones Externas del Banco Interamericano de Desarrollo, del 2005 al 2008. Ha sido asesor dela presidencia para América Latina del Grupo SACYR.",
@@ -9,48 +69,72 @@
 	"partido-img":"img/logo/AccionPopular.jpg"
 	},
 	{
-	"partido":"Alianza para el progreso",
-	"foto":"img/presidente/",
-	"descripcion":"",
-	"presidente":"",
-	"Primer vicepresidente":"",
-	"Segundo vicepresidente":"",
-	"partido-img":"img/logo/"
+	"partido":"FUERZA POPULAR",
+	"foto":"img/presidente/K.png",
+	"descripcion":"Keiko Fujimori es Bachiller en Administración de Empresas por la Boston University, tiene un máster en el mismo rubro por la Columbia University y un diplomado en Parlamento, Democracia y Gobernabilidad por la George Washington University. Fue primera dama de la Nación durante el régimen de su padre, Alberto Fujimori, hasta el año 2000, y congresista de la República por Alianza Para el Futuro del 2006 al 2011.",
+	"presidente":"KEIKO SOFIA FUJIMORI HIGUCHI",
+	"Primer vicepresidente":"JOSE CHLIMPER ACKERMAN",
+	"Segundo vicepresidente":"VLADIMIRO HUAROC PORTOCARRERO",
+	"partido-img":"img/logo/K.jpg"
 	},
+
 	{
-	"partido":"Union Civil",
-	"foto":"img/presidente/",
-	"descripcion":"",
-	"presidente":"",
-	"Primer vicepresidente":"",
-	"Segundo vicepresidente":"",
-	"partido-img":"img/logo/"
+	"partido":"FRENTE ESPERANZA",
+	"foto":"img/presidente/FrenteEsperanza.png",
+	"descripcion":"Fernando Olivera es Bachiller en Administración de Empresas por la Universidad del Pacífico. Obtuvo su máster en Relaciones Internacionales en el 2008, por la Universidad Complutense de Madrid, España. Ha sido electo congresista en cinco oportunidades, siempre por el Frente Independiente Moralizador (FIM). Fue secretario general del Ministerio Público de 1981 a 1984, ministro de Justicia del 2001 al 2002 y embajador de Perú en España del 2002 al 2005. Actualmente es consultor autónomo de su propia empresa que se llama como él mismo, con sede en España.",
+	"presidente":"LUIS FERNANDO OLIVERA VEGA",
+	"Primer vicepresidente":"CARLOS RICARDO CUARESMA SANCHEZ",
+	"Segundo vicepresidente":"JUANA NATIVIDAD AVELLANEDA SOTO",
+	"partido-img":"img/logo/FrenteEsperanza.jpg"
 	},
+
 	{
-	"partido":"Marca la teta",
-	"foto":"img/presidente/",
-	"descripcion":"",
-	"presidente":"",
-	"Primer vicepresidente":"",
-	"Segundo vicepresidente":"",
-	"partido-img":"img/logo/"
+	"partido":"PROGRESANDO PERÚ",
+	"foto":"img/presidente/ProgresandoPorElPeru.png",
+	"descripcion":"Miguel Hilario es Bachiller en Economía y Política de Latinoamérica por la California State University de Estados Unidos. Tiene un máster en Estudios Latinoamericanos y otro en Ciencias Antropológicas por la Stanford University de Estados Unidos. Es doctor de Antropología Política por la Stanford University. Además, es fundador del Instituto Indígena Amazónico. Tiene estudios técnicos de Misiones en la Youth With a Mission de Texas, y estudios no concluidos de Teología en el Perú. Ha sido profesor de la Universidad de Stanford y de la Univerisad Nacional Intercultural de la Amazonía, además trabajó en el Gobierno de California, en el Banco Interamericano de Desarrollo en Guatemala y Estados Unidos, y en la Unicef.",
+	"presidente":"MIGUEL WALTER HILARIO ESCOBAR",
+	"Primer vicepresidente":"MANUEL EDUARDO JULIO PONCE AYALA",
+	"Segundo vicepresidente":"SILVIA LUZ PAREJA GARCÍA",
+	"partido-img":"img/logo/ProgresandoPorElPeru.jpg"
 	},
+
 	{
-	"partido":"Frente Amplio",
-	"foto":"img/presidente/",
-	"descripcion":"",
-	"presidente":"",
-	"Primer vicepresidente":"",
-	"Segundo vicepresidente":"",
-	"partido-img":"img/logo/"
+	"partido":"PERUANOS POR EL KAMBIO",
+	"foto":"img/presidente/PPK.png",
+	"descripcion":"PPK es licenciado en Economía por la Oxford University y tiene un máster en Economía y Política por la Princeton University. También culminó un curso de flauta y piano en el Royal College of Music. Del 2005 al 2006 fue presidente del Consejo de Ministros, durante el gobierno de Alejandro Toledo. Del 2007 al 2015 fue asesor principal de TRG Management Perú S.R.L. Es la segunda vez que postula a la presidencia del Perú, también lo hizo en las elecciones del 2011, donde quedó en tercer lugar, por detrás de Ollanta Humala Tasso y Keiko Fujimori Higushi.",
+	"presidente":"PEDRO PABLO KUCZYNSKI GODARD",
+	"Primer vicepresidente":"MARTÍN ALBERTO VIZCARRA CORNEJO",
+	"Segundo vicepresidente":"MERCEDES ROSALBA ARAOZ FERNANDEZ",
+	"partido-img":"img/logo/PPK.jpg"
 	},
+
 	{
-	"partido":"Todos por el Peru",
-	"foto":"img/presidente/",
-	"descripcion":"",
-	"presidente":"",
-	"Primer vicepresidente":"",
-	"Segundo vicepresidente":"",
-	"partido-img":"img/logo/"
+	"partido":"EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD",
+	"foto":"img/presidente/FrenteAmplio.png",
+	"descripcion":"Verónika Mendoza es psicóloga de la Universidad Denis Diderot y tiene estudios de arquitectura por la UNSAAC. Tiene un máster en Ciencias Sociales por la Sorbona Nueva y cursó un diplomado a distancia en Enseñanza de Lenguas en la UNED. Actualmente es congresista, fue electa por el Partido Nacionalista pero renunció a él en el 2012. Fue profesora del Instituto Acadomia, investigadora de la Asociación Pukllasunchis, y docente invitada en un diplomado de la Universidad Nacional del Altiplano.",
+	"presidente":"VERONIKA FANNY MENDOZA FRISCH",
+	"Primer vicepresidente":"MARCO ANTONIO ARANA ZEGARRA",
+	"Segundo vicepresidente":"ALAN CARSOL BERNABE FAIRLIE REINOSO",
+	"partido-img":"img/logo/FrenteAmplio.jpg"
+	},
+
+	{
+	"partido":"PERÚ LIBERTARIO",
+	"foto":"img/presidente/PL.png",
+	"descripcion":"Vladimir Cerrón es médico de la Universidad de Ciencias Médicas. Tiene un máster en Neurociencia por la Universidad Nacional Mayor de San Marcos (UNMSM) y un doctorado en medicina por la misma casa de estudios. Fue secretario de Ideología Regional de Junín del Partido Nacionalista, del 2005 al 2006. Ha sido gobernador regional de Junín del 2011 al 2014. También se desempeñó como profesor auxiliar de la Universidad Nacional del Centro.",
+	"presidente":"VLADIMIR ROY CERRÓN ROJAS",
+	"Primer vicepresidente":"JORGE LUIS PAREDES TERRY",
+	"Segundo vicepresidente":"JESÚS MARTÍN ZÁRATE RIOJA",
+	"partido-img":"img/logo/PL.jpg"
+	},
+
+	{
+	"partido":"PARTIDO HUMANISTA PERUANO",
+	"foto":"img/presidente/ParHumanistaPer.png",
+	"descripcion":"Yehude Simon es médico veterinario de la Universidad Nacional Pedro Ruiz Gallo y bachiller en Derecho por la Universidad Alas Peruanas. Tiene un máster en Gestión y Análisis de Políticas Públicas por la Universidad Carlos III de Madrid. Ha sido congresista de 1985 a 1990 por la Izquierda Unida, y también fue elegido para el actual periodo por la Alianza Por el Gran Cambio. Se desempeñó como gobernador regional de Lambayeque en dos periodos consecutivos. Ha sido presidente del Consejo de Ministros del 2008 al 2009, durante el segundo gobierno de Alan García.",
+	"presidente":"YEHUDE SIMON MUNARO",
+	"Primer vicepresidente":"ROSA DELSA MAVILA LEÓN",
+	"Segundo vicepresidente":"YORKA MARINA GAMARRA BOLUARTE",
+	"partido-img":"img/logo/ParHumanistaPer.jpg"
 	}
 ]
