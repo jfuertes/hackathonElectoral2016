@@ -35,8 +35,6 @@ angular.module('angular-flipclock', [])
             'reset' // This callback is triggered when the timer has been reset
           ];
 
-
-
         //set options from attributes
         optionKeys.forEach(function(key) {
           if(attr[key]){
