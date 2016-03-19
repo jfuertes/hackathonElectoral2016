@@ -8,15 +8,6 @@
 	"Segundo vicepresidente":"RICARDO EDMUNDO DEL AGUILA MOROTE",
 	"partido-img":"img/logo/AccionPopular.jpg"
 	},
-	
-	"partido":"",
-	"foto":"img/presidente/",
-	"descripcion":"",
-	"presidente":"",
-	"Primer vicepresidente":"",
-	"Segundo vicepresidente":"",
-	"partido-img":"img/logo/"
-	},
 
 	"partido":"",
 	"foto":"img/presidente/",
@@ -27,5 +18,12 @@
 	"partido-img":"img/logo/"
 	},
 
-
-	]
+	"partido":"",
+	"foto":"img/presidente/",
+	"descripcion":"",
+	"presidente":"",
+	"Primer vicepresidente":"",
+	"Segundo vicepresidente":"",
+	"partido-img":"img/logo/"
+	}
+]
