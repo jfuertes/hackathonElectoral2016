@@ -25,7 +25,6 @@
   	//Desordenar el array: shufle
   	// (Math.random())*10 : numero_random
   }])
-  .controller('preguntasController',['$scope', '$http', function ($scope, $http) {
-  
-  }]);
+  .controller('TimelineController',['$scope', function ($scope) {  }])
+  .controller('preguntasController',['$scope', function ($scope) {  }]);
 })();
