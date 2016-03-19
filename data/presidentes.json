@@ -8,8 +8,8 @@
 	"Segundo vicepresidente":"RICARDO EDMUNDO DEL AGUILA MOROTE",
 	"partido-img":"img/logo/AccionPopular.jpg"
 	},
-
-	"partido":"",
+	{
+	"partido":"Alianza para el progreso",
 	"foto":"img/presidente/",
 	"descripcion":"",
 	"presidente":"",
@@ -17,8 +17,35 @@
 	"Segundo vicepresidente":"",
 	"partido-img":"img/logo/"
 	},
-
-	"partido":"",
+	{
+	"partido":"Union Civil",
+	"foto":"img/presidente/",
+	"descripcion":"",
+	"presidente":"",
+	"Primer vicepresidente":"",
+	"Segundo vicepresidente":"",
+	"partido-img":"img/logo/"
+	},
+	{
+	"partido":"Marca la teta",
+	"foto":"img/presidente/",
+	"descripcion":"",
+	"presidente":"",
+	"Primer vicepresidente":"",
+	"Segundo vicepresidente":"",
+	"partido-img":"img/logo/"
+	},
+	{
+	"partido":"Frente Amplio",
+	"foto":"img/presidente/",
+	"descripcion":"",
+	"presidente":"",
+	"Primer vicepresidente":"",
+	"Segundo vicepresidente":"",
+	"partido-img":"img/logo/"
+	},
+	{
+	"partido":"Todos por el Peru",
 	"foto":"img/presidente/",
 	"descripcion":"",
 	"presidente":"",
