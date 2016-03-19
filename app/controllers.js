@@ -28,6 +28,9 @@
   .controller('preguntasController',['$scope', '$http', function ($scope, $http) {
   
   }])
+   .controller('onpeController',['$scope', '$http', function ($scope, $http) {
+  
+  }])
   .controller('TimelineController',['$scope', function ($scope) {  }])
   
    .controller('newsController',['$scope', '$http', function ($scope, $http) {
